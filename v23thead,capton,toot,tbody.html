@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>Know about = thead,capton,tbody,tfoot tags</h1>
+<body>
+    <table border="1" style="width: 100%;">
+        <tr>
+            <td>Student name</td>
+            <td>Skill</td>
+        </tr>
+        <tr>
+            <td>Dev</td>
+            <td>FSD</td>
+        </tr>
+        <tr>
+            <td>Yuvraj</td>
+            <td>css</td>
+        </tr>
+    </table >
+    <h1>Another table</h1>
+    <table border="1" style="width: 100%;">
+        <caption> Basic Table view of Students </caption>
+        <thead style="background-color: aqua;">
+          
+            <tr>
+                <th>Student Name</th>
+                <th>Skill</th>
+            </tr>
+        </thead>
+        <tbody style="background-color: pink;">
+        
+            <tr>
+                <td>Yuvraj</td>
+                <td>css</td>
+            </tr>
+            <tr>
+                <td>Anchal</td>
+                <td>html</td>
+            </tr>
+            <tr>
+                <td>Shyam </td>
+                <td>Testing</td>
+            </tr>
+            <tr>
+                <td>Gopal</td>
+                <td>script</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr> 
+                <td  colspan="2" style="text-align: center; background-color: orange;">These student currently use skill make project</td>
+            </tr>    
+           
+        </tfoot>
+    </table>
+
+        <h1> colgroup</h1>
+
+    <table border="1" style="width: 100%;">
+        <caption> Basic Table view of Students </caption>
+        <colgroup>
+            <col span="1" style="background-color: cadetblue;">
+            <col span="2" style="background-color: bisque;">
+        </colgroup>
+        <thead>
+          
+            <tr>
+                <th>Student Name</th>
+                <th>Skill</th>
+                <th>language</th>
+            </tr>
+        </thead>
+        <tbody >
+        
+            <tr>
+                <td>Yuvraj</td>
+                <td>css</td>
+                <td>java</td>
+            </tr>
+            <tr>
+                <td>Anchal</td>
+                <td>html</td>
+                <td>c++</td>
+            </tr>
+            <tr>
+                <td>Shyam </td>
+                <td>Testing</td>
+                <td>python</td>
+            </tr>
+            <tr>
+                <td>Gopal</td>
+                <td>script</td>
+                <td>swift</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr> 
+                <td  colspan="3" style="text-align: center;">These student currently use skill make project</td>
+            </tr>    
+           
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>form,input,lebel</title>
+    </head>
+    <body>
+        <form> <h2>Working Feild (select only one using radio option)</h2>
+            <div>
+                <input type="radio" id="ai" name="technology" value="=GUI">
+                <label for="ai" ><b>AI</b></label>
+                <br>
+                <br>
+                <input type="radio" id="ml" name="technology" value="ml">
+                <label for="ml"><b>Machine learning</b></label>
+                <br>
+                <br>
+                <input type="radio" id="it" name="technology" value="it">
+                <label for="it" ><b>Information technology</b></label>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>Language you want to select (select only one using radio option)</h2>
+                <label for="c">c++</label>
+                <input type="radio" id="c" name="language" value="c">
+                <br>
+                <br>
+                <label for="py">python</label>
+                <input type="radio" id="py" name="language" value="py">
+                <br>
+                <br>
+                <label for="js">javs script</label>
+                <input type="radio" id="js" name="language" value="js">
+            </div>
+            <br>
+            <br>
+            <br>
+            <input type="button" value="Proceed" id="processedbutton" onclick="alert('hello world!' )">
+            <input type="button" value="cancel" id="cancelbutton" onclick="alert('this is cancel button')">
+            <input type="button" value="reset" id="resetbutton" onclick="alert('this is reset button')">
+            <input type="button" value="submit" id="submitbutton" onclick="alert('this is submit button')">
+            <h2>Select you want books (checkbox)</h2>
+            <label for="sc">Science</label>
+            <input type="checkbox" id="sc" name="subject" value="sciencebook">
+            <br>
+            <br>
+            <label for="mts">maths</label>
+            <input type="checkbox" id="mts" name="subject" value="mathsbook">
+            <br>
+            <br>
+            <label for="hin">hindi</label>
+            <input type="checkbox" id="hin" name="subject" value="hindibook">
+        </form>
+    </body>
+</html>

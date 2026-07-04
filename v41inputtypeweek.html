@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Week Attribute Types</title>
+</head>
+<body>
+    <h2>Week Attribute Types</h2>
+
+    <form>
+        <label for="week1">Basic Week Input</label>
+        <input type="week" id="week1" name="week1">
+        <br><br>
+
+        <label for="week2">Week with Range</label>
+        <input type="week" id="week2" name="week2"
+               min="2025-W01" max="2026-W52">
+        <br><br>
+
+        <label for="week3">Week with Default Value</label>
+        <input type="week" id="week3" name="week3"
+               value="2026-W20">
+        <br><br>
+
+        <label for="week4">Required Week</label>
+        <input type="week" id="week4" name="week4"
+               required>
+        <br><br>
+
+        <label for="week5">Read Only Week</label>
+        <input type="week" id="week5" name="week5"
+               value="2026-W15" readonly>
+        <br><br>
+
+        <label for="week6">Disabled Week</label>
+        <input type="week" id="week6" name="week6"
+               disabled>
+        <br><br>
+
+        <input type="submit" value="Submit Form">
+        <input type="reset" value="Clear Form">
+    </form>
+</body>
+</html>

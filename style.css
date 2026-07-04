@@ -1,0 +1,39 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height:100%;
+    width:100%;
+}
+#heading{
+    margin: 20px 20px 20px 20px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(44, 44, 211);
+    color: rgb(248, 246, 246);
+    
+    
+}
+.main_panel{
+    background-color: rgb(144, 144, 224);
+}
+.box{
+    background-color: aquamarine;
+    height:40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+}
+.box a{
+
+    margin-left: 20px;
+    font-weight: bold;
+    display: flex;
+    padding-top : 7px;
+    align-items: center;
+    text-align: center;
+}

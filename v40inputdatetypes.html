@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Date attributes types </title>
+
+    </head>
+    <body>
+        <h2> Date attributes types : </h2>
+        <form>
+            <label for="dob1">Basic dob Input</label>
+            <input type="date" id="dob1" name="dob1">
+            <br>
+            <br>
+            <label for="dob2">dob with age restricton</label>
+            <input type="date" id="dob2" name="dob2" 
+            min="2001-01-01" max="2026-01-01">
+            <br>
+            <br>
+            <label for="dob3">dob with default value</label>
+            <input type="date" id="dob3" name="dob3"
+            value="2000-01-01">
+            <br>
+            <br>
+            <label for="dob4">required dob (mandatory feild)</label>
+            <input type="date" id="dob4" name="dob4"
+            required>
+            <br>
+            <br>
+            <label for="dob5">View only</label>
+            <input type="date" id="dob5" name="dob5"
+            value="1998-05-15" readonly>
+            <br>
+            <br>
+            <label for="dob6">Disable dob not valid </label>
+            <input type="date" id="dob6" name="dob6" 
+            >
+            <br>
+            <br>
+            <input type="submit" value="submit form">
+            <input type="reset" value="clear form">
+        </form>
+    </body>
+</html>

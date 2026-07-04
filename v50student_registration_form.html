@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>student_reg_form</title>
+    </head>
+    <body>
+        <h2> XY comany -  Student Registration Form</h2>
+        <form action="">
+            <label for="fullname">Full Name</label><br>
+            <input type="text" id="fullname" name="fullname" placeholder="XU Rohan">
+            <br>
+            <br>
+            <label for="email">Email Address</label> <br>
+            <input type="text" id="email" name="email" placeholder="email.com">
+            <br>
+            <br>
+            <label for="mobile">Mobile No.</label> <br>
+            <input type="tel" id="mobile" name="mobile" pattern="\+91[0-8]{10}" placeholder="+91 000000000" required>
+            <br>
+            <br>
+            <label for="gender">Gender</label> <br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br>
+            <input type="radio" id="others" name="gender" value="others">
+            <label for="others">Others</label>
+            <br>
+            <br>
+            <label for="course">Select Course</label>
+            <br>
+            <select name="courseq" id="course">
+            <option value="">Please choose an option</option>
+            <option value="jfs">Java Full Ftack</option>
+            <option value="fd">Fronted Developer</option>
+            <option value="bd">Backend Developer</option>
+            <option value="dsa in c++">Data Structure And Algorithm in c++</option>
+            </select>
+            <br>
+            <br>
+            <label for="timing">Preferred Batch timing</label> <br>
+            <input type="text" id="timing" name="timing" placeholder="e.g. : weekend morning / evening" >
+
+            <br>
+            <br>
+            <label for="comments">Any queston or comments :</label> <br>
+            <textarea name="comments" id="comments" rows="5" cols="50" placeholder="write msg ......"></textarea>
+            <br>
+            <br>
+            <input type="Submit" value=" register">
+            <input type="reset" value="Clear form">
+
+        </form>
+        <p>xy company. All right reserved.</p>
+    </body>
+</html>
